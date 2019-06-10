@@ -1,0 +1,18 @@
+{
+    "name": "NuMaker-mbed-TZ-secure-example_build",
+    "artifact_name": "NuMaker-mbed-TZ-secure-example",
+    "config": {
+        "tz-start-ns": {
+            "help": "Start address of TrustZone non-secure application"
+        }
+    },
+    "target_overrides": {
+        "*": {
+            "platform.stdio-baud-rate": 115200,
+            "platform.stdio-convert-newlines": true
+        },
+        "NUMAKER_PFM_M2351_NOPSA_S": {
+            "target.device_has_remove": []
+        }
+    }
+}

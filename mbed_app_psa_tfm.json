@@ -1,0 +1,27 @@
+{
+    "name": "tfm_build",
+    "requires" : ["psa-services", "tfm", "tfm-s", "psa"],
+    "macros": [
+        "MBEDTLS_CIPHER_MODE_CTR",
+        "MBEDTLS_CMAC_C"
+    ],
+    "artifact_name": "tfm",
+    "target_overrides": {
+        "*": {
+            "platform.stdio-baud-rate": 115200,
+            "platform.stdio-convert-newlines": true
+        },
+        "NUMAKER_PFM_M2351_S": {
+            "target.device_has_remove": [],
+
+            "target.secure-rom-start"           : "0x0",
+            "target.secure-rom-size"            : "0x50000",
+            "target.secure-ram-start"           : "0x20000000",
+            "target.secure-ram-size"            : "0x10000",
+            "target.non-secure-rom-start"       : "0x10050000",
+            "target.non-secure-rom-size"        : "0x30000",
+            "target.non-secure-ram-start"       : "0x30010000",
+            "target.non-secure-ram-size"        : "0x8000"
+        }
+    }
+}
