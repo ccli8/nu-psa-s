@@ -11,6 +11,7 @@ mbed-os/features/net/*
 mbed-os/features/netsocket/*
 mbed-os/features/nfc/*
 mbed-os/features/nvstore/*
+mbed-os/features/storage/nvstore/*
 mbed-os/events/*
 mbed-os/features/lorawan/*
 mbed-os/components/802.15.4_RF/*
@@ -27,3 +28,4 @@ mbed-os/features/storage/kvstore/global_api/*
 mbed-os/features/storage/kvstore/kv_map/*
 mbed-os/features/storage/kvstore/securestore/*
 mbed-os/usb/*
+mbed-os/drivers/source/usb/*
