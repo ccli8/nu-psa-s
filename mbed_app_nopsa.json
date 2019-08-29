@@ -11,7 +11,7 @@
             "platform.stdio-baud-rate": 115200,
             "platform.stdio-convert-newlines": true
         },
-        "NUMAKER_PFM_M2351_NOPSA_S": {
+        "NU_PFM_M2351_NP_S": {
             "target.device_has_remove": [],
 
             "target.mbed_rom_start":    "0x0",

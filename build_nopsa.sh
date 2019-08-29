@@ -1,7 +1,7 @@
 #!/bin/sh
 
 TOOLCHAIN="ARMC6"
-TARGET="NUMAKER_PFM_M2351_NOPSA_S"
+TARGET="NU_PFM_M2351_NP_S"
 APP_CONFIG="mbed_app_nopsa.json"
 PROFILE="develop"
 TOOLCHAIN_PROFILE=$TOOLCHAIN-`echo $PROFILE | tr '[a-z]' '[A-Z]'`
