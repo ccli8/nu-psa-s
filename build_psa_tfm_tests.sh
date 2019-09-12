@@ -1,7 +1,7 @@
 #!/bin/sh
 
 TOOLCHAIN="ARMC6"
-TARGET="NU_PFM_M2351_P_S"
+TARGET="NU_PFM_M2351_PSA_S"
 APP_CONFIG="mbed_app_psa_tfm.json"
 PROFILE="develop"
 TOOLCHAIN_PROFILE=$TOOLCHAIN-`echo $PROFILE | tr '[a-z]' '[A-Z]'`

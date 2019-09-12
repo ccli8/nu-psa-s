@@ -11,7 +11,7 @@
             "platform.stdio-baud-rate": 115200,
             "platform.stdio-convert-newlines": true
         },
-        "NU_PFM_M2351_P_S": {
+        "NU_PFM_M2351_PSA_S": {
             "target.device_has_remove": [],
 
             "target.secure-rom-start"           : "0x0",
