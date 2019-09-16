@@ -1,7 +1,7 @@
 #!/bin/sh
 
 TOOLCHAIN="GCC_ARM"
-TARGET="NU_PFM_M2351_S"
+TARGET="NU_PFM_M2351_NPSA_S"
 APP_CONFIG="mbed_app_nopsa.json"
 PROFILE="develop"
 TOOLCHAIN_PROFILE=$TOOLCHAIN-`echo $PROFILE | tr '[a-z]' '[A-Z]'`

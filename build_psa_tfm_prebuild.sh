@@ -1,7 +1,7 @@
 #!/bin/sh
 
 TOOLCHAIN="ARMC6"
-TARGET="NU_PFM_M2351_PSA_S"
+TARGET="NU_PFM_M2351_S"
 APP_CONFIG="mbed-os/tools/psa/tfm/mbed_app.json"
 PROFILE="release"
 TOOLCHAIN_PROFILE=$TOOLCHAIN-`echo $PROFILE | tr '[a-z]' '[A-Z]'`
