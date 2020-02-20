@@ -18,6 +18,14 @@
             "target.mbed_rom_size":     "0x20000",
             "target.mbed_ram_start":    "0x20000000",
             "target.mbed_ram_size":     "0x6000"
+        },
+        "NU_M2354_NPSA_S": {
+            "target.device_has_remove": [],
+
+            "target.mbed_rom_start":    "0x0",
+            "target.mbed_rom_size":     "0x80000",
+            "target.mbed_ram_start":    "0x20000000",
+            "target.mbed_ram_size":     "0x20000"
         }
     }
 }
