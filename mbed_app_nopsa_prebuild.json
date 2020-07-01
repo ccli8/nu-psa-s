@@ -1,6 +1,7 @@
 {
     "name": "NuMaker-mbed-TZ-secure-example_build",
     "artifact_name": "NuMaker-mbed-TZ-secure-example",
+    "requires": ["bare-metal", "rtos-api"],
     "config": {
         "tz-start-ns": {
             "help": "Start address of TrustZone non-secure application"
@@ -8,8 +9,9 @@
     },
     "target_overrides": {
         "*": {
-            "platform.stdio-baud-rate": 115200,
-            "platform.stdio-convert-newlines": true
+            "platform.stdio-baud-rate"          : 115200,
+            "platform.stdio-convert-newlines"   : true,
+            "platform.stdio-buffered-serial"    : false
         },
         "NU_PFM_M2351_NPSA_S": {
             "target.device_has_remove": ["SERIAL", "SERIAL_ASYNCH", "SERIAL_FC", "STDIO_MESSAGES"]
